@@ -1,0 +1,50 @@
+{
+  "sessionId": "auto-1757980682283_1757980682283",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-15T23:58:02.283Z",
+      "sessionId": "auto-1757980682283_1757980682283",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757980682283",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:58:07.466Z",
+      "sessionId": "auto-1757980682283_1757980682283",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:58:07.556Z",
+      "sessionId": "auto-1757980682283_1757980682283",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-15T23:58:40.633Z",
+      "sessionId": "auto-1757980682283_1757980682283",
+      "totalEvents": 3,
+      "suspiciousActivity": {
+        "windowSwitches": 0,
+        "suspiciousProcesses": [],
+        "clipboardEvents": 1,
+        "pasteAttempts": 1
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 0,
+    "suspiciousProcesses": [],
+    "clipboardEvents": 1,
+    "pasteAttempts": 1
+  },
+  "riskLevel": "LOW",
+  "score": 6,
+  "generatedAt": "2025-09-15T23:58:40.696Z"
+}

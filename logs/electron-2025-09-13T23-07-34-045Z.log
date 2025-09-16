@@ -1,0 +1,13 @@
+[2025-09-13T23:07:34.046Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T23-07-34-045Z.log
+[2025-09-13T23:07:34.701Z] [LOG] [Startup] Spawning Next.js dev server...
+[2025-09-13T23:07:37.993Z] [LOG] [Next] - Local:        http://localhost:3000
+[2025-09-13T23:07:41.127Z] [ERROR] [Next][err] <w> [webpack.cache.PackFileCacheStrategy] Restoring pack failed from C:\Users\Hp\Desktop\codevail-app\.next\cache\webpack\server-development.pack.gz: Error: incorrect header check
+[2025-09-13T23:07:54.807Z] [WARN] [Startup] Next dev readiness timeout; proceeding anyway (Electron will retry loads)
+[2025-09-13T23:08:11.641Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-13T23:08:13.301Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T23:08:13.309Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["whatsapp.exe"]
+[2025-09-13T23:08:13.310Z] [LOG] [AntiCheat][Startup] Warning about medium violations
+[2025-09-13T23:08:38.045Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T23:08:38.047Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T23:10:07.414Z] [ERROR] [Next][err] ⚠ Fast Refresh had to perform a full reload when p\\codevail-app\\app\\globals.css","ids":[]}, p\\codevail-app\\components\\theme-provider.tsx","ids":["ThemeProvider"]}, p\\codevail-app\\components\\ui\\toaster.tsx","ids":["Toaster"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[2025-09-13T23:10:28.637Z] [LOG] [Diag] Process exiting with code 0

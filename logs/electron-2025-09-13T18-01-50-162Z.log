@@ -1,0 +1,44 @@
+[2025-09-13T18:01:50.163Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T18-01-50-162Z.log
+[2025-09-13T18:01:52.367Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-13T18:01:55.268Z] [LOG] [Nav] did-navigate http://localhost:3000/
+[2025-09-13T18:01:57.364Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T18:01:57.370Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T18:01:57.505Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/
+[2025-09-13T18:02:05.711Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T18:02:07.093Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T18:02:08.556Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T18:02:10.181Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T18:02:11.865Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T18:02:16.931Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/candidate-dashboard
+[2025-09-13T18:02:18.325Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/candidate-dashboard
+[2025-09-13T18:02:20.088Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:21.229Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:23.138Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:24.076Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:26.039Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:29.968Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:31.676Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:32.806Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:34.660Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:36.524Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:39.006Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:40.372Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:41.784Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:42.808Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:45.628Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:50.527Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:53.885Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:56.595Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:57.441Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:58.954Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:02:59.661Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:00.567Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:01.649Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:02.615Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:03.685Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:05.240Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:06.260Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:07.030Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:08.327Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:10.554Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T18:03:10.700Z] [LOG] [Diag] Process exiting with code 0

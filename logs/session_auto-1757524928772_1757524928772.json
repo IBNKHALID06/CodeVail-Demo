@@ -1,0 +1,121 @@
+{
+  "sessionId": "auto-1757524928772_1757524928772",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-10T17:22:08.772Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757524928772",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-10T17:22:13.784Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "contentLength": 6839,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-10T17:22:13.785Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "contentLength": 6839,
+      "preview": "1) Add a guard & diagnostics + termination-in-prog..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-10T17:22:19.168Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "processes": [
+        "copilot.exe",
+        "whatsapp.exe",
+        "chrome.exe",
+        "msedge.exe",
+        "copilot",
+        "whatsapp",
+        "chrome",
+        "edge"
+      ],
+      "criticalViolations": [
+        "copilot.exe",
+        "copilot"
+      ],
+      "highSeverityViolations": [],
+      "threatLevel": "critical",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-10T17:22:19.174Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "copilot.exe",
+        "whatsapp.exe",
+        "chrome.exe",
+        "msedge.exe",
+        "copilot",
+        "whatsapp",
+        "chrome",
+        "edge"
+      ],
+      "criticalViolations": [
+        "copilot.exe",
+        "copilot"
+      ],
+      "highSeverityViolations": [],
+      "threatLevel": "critical",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-10T17:22:20.121Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "processes": [
+        "copilot.exe",
+        "whatsapp.exe",
+        "chrome.exe",
+        "msedge.exe",
+        "copilot",
+        "whatsapp",
+        "chrome",
+        "edge"
+      ],
+      "criticalViolations": [
+        "copilot.exe",
+        "copilot"
+      ],
+      "highSeverityViolations": [],
+      "threatLevel": "critical",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-10T17:23:05.540Z",
+      "sessionId": "auto-1757524928772_1757524928772",
+      "totalEvents": 6,
+      "suspiciousActivity": {
+        "windowSwitches": 0,
+        "suspiciousProcesses": [
+          null
+        ],
+        "clipboardEvents": 1,
+        "pasteAttempts": 1
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 0,
+    "suspiciousProcesses": [
+      null
+    ],
+    "clipboardEvents": 1,
+    "pasteAttempts": 1
+  },
+  "riskLevel": "MEDIUM",
+  "score": 16,
+  "generatedAt": "2025-09-10T17:23:05.542Z"
+}

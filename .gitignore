@@ -1,0 +1,112 @@
+###############################################
+# CodeVail Project .gitignore (Expanded)
+# Safely ignore build artifacts, secrets, caches, system/editor junk.
+###############################################
+
+# Node Dependencies
+node_modules/
+
+# Package manager debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Lockfile strategy (uncomment to ignore npm lock if using pnpm exclusively)
+# package-lock.json
+
+# Next.js build output
+.next/
+out/
+
+# Production / build folders
+build/
+dist/
+release/
+
+# Electron builder artifacts
+*.exe
+*.dmg
+*.AppImage
+*.blockmap
+latest.yml
+
+# Environment & secrets
+.env*
+!.env.example
+
+# Local databases / data stores
+*.sqlite
+*.db
+*.db-journal
+users.db
+
+# Python cache & virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage/
+env/
+.env/
+.venv/
+venv/
+
+# Tool caches
+.eslintcache
+.stylelintcache
+.turbo/
+.cache/
+.pnp/
+.pnp.js
+
+# Logs / traces
+*.log
+*.trace
+*.stackdump
+
+# Vercel deployment metadata
+.vercel
+
+# TypeScript build metadata
+*.tsbuildinfo
+next-env.d.ts
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Misc temporary
+*.swp
+*.swo
+
+# Coverage / test artifacts (future)
+jest-html-reporters-*.html
+coverage-final.json
+
+# Certificates / signing keys (ensure not added accidentally)
+certs/
+*.pem
+*.key
+*.pfx
+*.cer
+
+# Generated lock for electron-builder (optional, if appears)
+builder-debug.yml
+builder-effective-config.yaml
+
+###############################################
+# End of .gitignore
+###############################################

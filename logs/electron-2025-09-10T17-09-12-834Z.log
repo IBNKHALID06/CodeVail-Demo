@@ -1,0 +1,18 @@
+[2025-09-10T17:09:12.835Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-10T17-09-12-834Z.log
+[2025-09-10T17:09:30.750Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-10T17:09:32.778Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-10T17:09:32.778Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-10T17:09:32.779Z] [LOG] [AntiCheat] SESSION_START: {"candidateName":"DevAutoCandidate","interviewId":"auto-1757524172779","sessionId":"auto-1757524172779_1757524172779","role":"candidate","testStarted":true,"timestamp":"2025-09-10T17:09:32.779Z"}
+[2025-09-10T17:09:32.783Z] [LOG] [AntiCheat] Session started: auto-1757524172779_1757524172779
+[2025-09-10T17:09:32.784Z] [LOG] [AntiCheat][AUTO] Dev auto session initialized
+[2025-09-10T17:09:32.785Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-10T17:09:32.786Z] [LOG] [AntiCheat][IPC] testState set to active (main)
+[2025-09-10T17:09:32.787Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757524172779_1757524172779","eventCount":1,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"riskLevel":"NONE","score":0,"role":"candidate","testStarted":true}
+[2025-09-10T17:09:48.197Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-10T17:09:48.197Z"}
+[2025-09-10T17:10:03.688Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":15491,"awayTimeSeconds":15,"timestamp":"2025-09-10T17:10:03.688Z"}
+[2025-09-10T17:10:20.079Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-10T17:10:20.079Z"}
+[2025-09-10T17:10:20.539Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":460,"awayTimeSeconds":0,"timestamp":"2025-09-10T17:10:20.539Z"}
+[2025-09-10T17:10:47.583Z] [LOG] [AntiCheat] SESSION_END: {"sessionId":"auto-1757524172779_1757524172779","totalEvents":5,"suspiciousActivity":{"windowSwitches":2,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"timestamp":"2025-09-10T17:10:47.582Z"}
+[2025-09-10T17:10:47.587Z] [LOG] [AntiCheat] Session log saved: C:\Users\Hp\Desktop\codevail-app\logs\session_auto-1757524172779_1757524172779.json
+[2025-09-10T17:10:47.587Z] [LOG] [AntiCheat] Session ended: auto-1757524172779_1757524172779
+[2025-09-10T17:10:47.589Z] [LOG] [Diag] Process exiting with code 0

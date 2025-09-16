@@ -1,0 +1,32 @@
+[2025-09-11T16:06:17.983Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-11T16-06-17-982Z.log
+[2025-09-11T16:06:55.259Z] [ERROR] No dev server found on localhost:3000-3005
+[2025-09-11T16:06:55.260Z] [LOG] Loading fallback URL: http://localhost:3000
+[2025-09-11T16:06:58.150Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":0}
+[2025-09-11T16:06:58.154Z] [WARN] [App] Retry loading (1/5) in 1200ms...
+[2025-09-11T16:06:58.156Z] [ERROR] (node:11296) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+(Use `electron --trace-warnings ...` to show where the warning was created)
+[2025-09-11T16:06:58.202Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-11T16:06:58.205Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-11T16:07:01.732Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":1}
+[2025-09-11T16:07:01.763Z] [WARN] [App] Retry loading (2/5) in 1500ms...
+[2025-09-11T16:07:01.768Z] [ERROR] (node:11296) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-11T16:07:01.811Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-11T16:07:05.208Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["fuckleetcode.exe","copilot.exe","codeium.exe","tabnine.exe","discord.exe","whatsapp.exe","teamviewer.exe","ultraviewer.exe","xsplit.exe","camtasia.exe","insomnia.exe","fiddler.exe","wireshark.exe","firefox.exe","msedge.exe","fuckleetcode","copilot","codeium","tabnine","discord","whatsapp","teamviewer","ultraviewer","xsplit","camtasia","insomnia","fiddler","wireshark","firefox","edge"],"criticalViolations":["fuckleetcode.exe","copilot.exe","teamviewer.exe","fuckleetcode","copilot","teamviewer"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-11T16:07:05.216Z] [LOG] [AntiCheat][BOOT] Terminating via bootstrap scan...
+[2025-09-11T16:07:05.218Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["fuckleetcode.exe","copilot.exe","codeium.exe","tabnine.exe","discord.exe","whatsapp.exe","teamviewer.exe","ultraviewer.exe","xsplit.exe","camtasia.exe","insomnia.exe","fiddler.exe","wireshark.exe","firefox.exe","msedge.exe","fuckleetcode","copilot","codeium","tabnine","discord","whatsapp","teamviewer","ultraviewer","xsplit","camtasia","insomnia","fiddler","wireshark","firefox","edge"]
+[2025-09-11T16:07:05.224Z] [LOG] [AntiCheat] Monitoring STOPPED
+[2025-09-11T16:07:05.224Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["fuckleetcode.exe","copilot.exe","codeium.exe","tabnine.exe","discord.exe","whatsapp.exe","teamviewer.exe","ultraviewer.exe","xsplit.exe","camtasia.exe","insomnia.exe","fiddler.exe","wireshark.exe","firefox.exe","msedge.exe","fuckleetcode","copilot","codeium","tabnine","discord","whatsapp","teamviewer","ultraviewer","xsplit","camtasia","insomnia","fiddler","wireshark","firefox","edge"],"filteredViolations":["fuckleetcode.exe","copilot.exe","codeium.exe","tabnine.exe","discord.exe","whatsapp.exe","teamviewer.exe","ultraviewer.exe","xsplit.exe","camtasia.exe","insomnia.exe","fiddler.exe","wireshark.exe","firefox.exe","fuckleetcode","copilot","codeium","tabnine","discord","whatsapp","teamviewer","ultraviewer","xsplit","camtasia","insomnia","fiddler","wireshark","firefox"],"criticalViolations":["fuckleetcode.exe","copilot.exe","teamviewer.exe","fuckleetcode","copilot","teamviewer"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","timestamp":"2025-09-11T16:07:05.224Z","terminationTriggered":true}
+[2025-09-11T16:07:05.648Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":2}
+[2025-09-11T16:07:05.655Z] [WARN] [App] Retry loading (3/5) in 1800ms...
+[2025-09-11T16:07:05.677Z] [ERROR] (node:11296) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-11T16:07:05.711Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-11T16:07:06.442Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3000/interview-terminated
+[2025-09-11T16:07:08.786Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":3}
+[2025-09-11T16:07:08.823Z] [WARN] [App] Retry loading (4/5) in 2100ms...
+[2025-09-11T16:07:08.826Z] [ERROR] (node:11296) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-11T16:07:08.898Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-11T16:07:13.283Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":4}
+[2025-09-11T16:07:13.320Z] [WARN] [App] Retry loading (5/5) in 2400ms...
+[2025-09-11T16:07:13.321Z] [ERROR] (node:11296) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-11T16:07:13.349Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-11T16:07:14.148Z] [LOG] [Diag] Process exiting with code 0

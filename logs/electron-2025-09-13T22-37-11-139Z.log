@@ -1,0 +1,9 @@
+[2025-09-13T22:37:11.140Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T22-37-11-139Z.log
+[2025-09-13T22:37:11.215Z] [LOG] [Startup] Spawning Next.js dev server...
+[2025-09-13T22:37:16.713Z] [LOG] [Next] - Local:        http://localhost:3000
+[2025-09-13T22:37:31.258Z] [WARN] [Startup] Next dev readiness timeout; proceeding anyway (Electron will retry loads)
+[2025-09-13T22:38:32.701Z] [ERROR] No dev server found on localhost:3000-3005
+[2025-09-13T22:38:32.702Z] [LOG] Loading fallback URL: http://localhost:3000
+[2025-09-13T22:38:38.716Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T22:38:38.719Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T22:38:53.298Z] [LOG] [Diag] Process exiting with code 0

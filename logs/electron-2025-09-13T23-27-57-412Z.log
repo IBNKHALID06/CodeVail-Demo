@@ -1,0 +1,7 @@
+[2025-09-13T23:27:57.413Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T23-27-57-412Z.log
+[2025-09-13T23:27:57.531Z] [LOG] [Startup] Skipping auto-spawn of Next.js dev server (set CODEVAIL_AUTO_SPAWN_NEXT=1 to enable)
+[2025-09-13T23:28:47.568Z] [ERROR] No dev server found on localhost:3000-3005
+[2025-09-13T23:28:47.573Z] [LOG] Loading fallback URL: http://localhost:3000
+[2025-09-13T23:28:49.794Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T23:28:49.795Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T23:29:09.605Z] [LOG] [Diag] Process exiting with code 0

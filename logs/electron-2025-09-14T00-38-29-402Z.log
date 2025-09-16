@@ -1,0 +1,8 @@
+[2025-09-14T00:38:29.403Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-14T00-38-29-402Z.log
+[2025-09-14T00:38:30.689Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-14T00:38:32.300Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-14T00:38:32.306Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["chrome.exe","whatsapp.exe"]
+[2025-09-14T00:38:32.309Z] [LOG] [AntiCheat][Startup] Warning about medium violations
+[2025-09-14T00:38:35.178Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-14T00:38:35.222Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-14T00:38:38.502Z] [LOG] [Diag] Process exiting with code 0

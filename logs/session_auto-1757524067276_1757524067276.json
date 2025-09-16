@@ -1,0 +1,48 @@
+{
+  "sessionId": "auto-1757524067276_1757524067276",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-10T17:07:47.276Z",
+      "sessionId": "auto-1757524067276_1757524067276",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757524067276",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-10T17:07:56.799Z",
+      "sessionId": "auto-1757524067276_1757524067276",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-10T17:08:25.191Z",
+      "sessionId": "auto-1757524067276_1757524067276",
+      "duration": 28393,
+      "awayTimeSeconds": 28
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-10T17:08:29.109Z",
+      "sessionId": "auto-1757524067276_1757524067276",
+      "totalEvents": 3,
+      "suspiciousActivity": {
+        "windowSwitches": 1,
+        "suspiciousProcesses": [],
+        "clipboardEvents": 0,
+        "pasteAttempts": 0
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 1,
+    "suspiciousProcesses": [],
+    "clipboardEvents": 0,
+    "pasteAttempts": 0
+  },
+  "riskLevel": "NONE",
+  "score": 2,
+  "generatedAt": "2025-09-10T17:08:29.110Z"
+}

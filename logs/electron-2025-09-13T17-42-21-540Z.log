@@ -1,0 +1,48 @@
+[2025-09-13T17:42:21.541Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T17-42-21-540Z.log
+[2025-09-13T17:42:23.718Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-13T17:42:25.992Z] [LOG] [Nav] did-navigate http://localhost:3000/
+[2025-09-13T17:42:27.744Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T17:42:27.749Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T17:42:27.872Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/
+[2025-09-13T17:42:35.047Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:36.672Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:37.452Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:38.258Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:38.830Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:39.491Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:40.401Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:42.221Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:43.527Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:45.296Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/login
+[2025-09-13T17:42:52.020Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/candidate-dashboard
+[2025-09-13T17:42:53.391Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/candidate-dashboard
+[2025-09-13T17:42:55.160Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:42:56.879Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:42:58.450Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:00.903Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:02.984Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:04.471Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:05.847Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:07.668Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:09.250Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:11.319Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:13.420Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:18.096Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:23.517Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:27.068Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:30.676Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:32.528Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:36.296Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:37.212Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:37.905Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:39.063Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:39.972Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:43.472Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:46.019Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:47.536Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:49.059Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:49.861Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:50.626Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:51.466Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:54.370Z] [LOG] [Nav] did-navigate-in-page http://localhost:3000/interview
+[2025-09-13T17:43:55.033Z] [LOG] [Diag] Process exiting with code 0

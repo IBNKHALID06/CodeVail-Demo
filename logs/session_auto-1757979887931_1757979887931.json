@@ -1,0 +1,919 @@
+{
+  "sessionId": "auto-1757979887931_1757979887931",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-15T23:44:47.931Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757979887931",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:44:53.280Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:44:53.284Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:44:53.291Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:44:58.871Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:44:59.031Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:00.857Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:00.962Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:06.931Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:45:08.279Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:45:08.350Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:11.745Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:12.192Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:16.662Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:16.678Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:45:20.105Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:45:20.773Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 668,
+      "awayTimeSeconds": 1
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:22.220Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:45:24.744Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 0
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:45:24.844Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:45:24.847Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:27.339Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:28.131Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:46.361Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:46.454Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:46.464Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:46.498Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:46.503Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:46.523Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:45:46.530Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:45:46.543Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:46.598Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:45:51.778Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:45:54.794Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:45:54.806Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:45:55.635Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 30891,
+      "awayTimeSeconds": 31
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:00.125Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:00.147Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:01.102Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:01.187Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:46:10.005Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:46:10.020Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:10.434Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:13.935Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:16.153Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:16.195Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:19.182Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:19.257Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:25.758Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:46:27.603Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:46:27.632Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:30.345Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:31.376Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:35.676Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:37.654Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:37.698Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:42.855Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:46:42.886Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 0
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:43.072Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:46:45.509Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:46:45.514Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:46:48.492Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 5606,
+      "awayTimeSeconds": 6
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:48.712Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:50.038Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:46:59.347Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:59.388Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:46:59.530Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "processes": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:46:59.577Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:47:01.127Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "banned": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:47:01.143Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe"
+      ],
+      "filteredViolations": [
+        "chrome.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:47:14.707Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 0
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:47:16.995Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:47:17.089Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:47:37.283Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 22576,
+      "awayTimeSeconds": 23
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:48:01.944Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:48:51.275Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "duration": 49331,
+      "awayTimeSeconds": 49
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-15T23:48:53.950Z",
+      "sessionId": "auto-1757979887931_1757979887931",
+      "totalEvents": 76,
+      "suspiciousActivity": {
+        "windowSwitches": 5,
+        "suspiciousProcesses": [
+          null
+        ],
+        "clipboardEvents": 8,
+        "pasteAttempts": 8
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 5,
+    "suspiciousProcesses": [
+      null
+    ],
+    "clipboardEvents": 8,
+    "pasteAttempts": 8
+  },
+  "riskLevel": "HIGH",
+  "score": 68,
+  "generatedAt": "2025-09-15T23:48:53.965Z"
+}

@@ -1,0 +1,346 @@
+{
+  "sessionId": "auto-1757790001116_1757790001116",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-13T19:00:01.116Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757790001116",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-13T19:00:06.256Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-13T19:00:06.558Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "preview": "1️⃣ Suppress repeated navigation logs\n\nRight now, ..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-13T19:00:12.879Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-13T19:00:13.130Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-13T19:00:17.251Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-13T19:00:17.367Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "banned": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-13T19:00:17.464Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-13T19:00:36.397Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-13T19:00:38.149Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-13T19:00:38.192Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "preview": "1️⃣ Suppress repeated navigation logs\n\nRight now, ..."
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-13T19:00:42.677Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "banned": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-13T19:00:44.769Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-13T19:00:47.572Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "banned": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-13T19:00:47.602Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-13T19:00:48.425Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "processes": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-13T19:00:48.459Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-13T19:00:59.067Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-13T19:00:59.237Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "contentLength": 1517,
+      "preview": "1️⃣ Suppress repeated navigation logs\n\nRight now, ..."
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-13T19:01:11.349Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-13T19:01:13.281Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "duration": 1932,
+      "awayTimeSeconds": 2
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-13T19:01:20.136Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "banned": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-13T19:01:20.149Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "chrome.exe",
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "discord.exe",
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [
+        "discord.exe"
+      ],
+      "threatLevel": "high",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-13T19:01:26.503Z",
+      "sessionId": "auto-1757790001116_1757790001116",
+      "totalEvents": 23,
+      "suspiciousActivity": {
+        "windowSwitches": 1,
+        "suspiciousProcesses": [
+          null
+        ],
+        "clipboardEvents": 3,
+        "pasteAttempts": 3
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 1,
+    "suspiciousProcesses": [
+      null
+    ],
+    "clipboardEvents": 3,
+    "pasteAttempts": 3
+  },
+  "riskLevel": "HIGH",
+  "score": 30,
+  "generatedAt": "2025-09-13T19:01:26.554Z"
+}

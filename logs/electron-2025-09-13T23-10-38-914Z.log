@@ -1,0 +1,12 @@
+[2025-09-13T23:10:38.915Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T23-10-38-914Z.log
+[2025-09-13T23:10:39.238Z] [LOG] [Startup] Spawning Next.js dev server...
+[2025-09-13T23:10:43.064Z] [ERROR] [Next][err] ⚠ Port 3000 is in use, trying 3001 instead.
+[2025-09-13T23:10:43.397Z] [LOG] [Next] - Local:        http://localhost:3001
+[2025-09-13T23:10:59.743Z] [WARN] [Startup] Next dev readiness timeout; proceeding anyway (Electron will retry loads)
+[2025-09-13T23:11:29.693Z] [LOG] Loading dev URL: http://localhost:3001
+[2025-09-13T23:11:31.380Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T23:11:31.402Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["whatsapp.exe"]
+[2025-09-13T23:11:31.405Z] [LOG] [AntiCheat][Startup] Warning about medium violations
+[2025-09-13T23:11:41.834Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T23:11:41.839Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T23:12:26.451Z] [LOG] [Diag] Process exiting with code 0

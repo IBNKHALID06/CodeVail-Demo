@@ -1,0 +1,61 @@
+{
+  "sessionId": "auto-1757524172779_1757524172779",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-10T17:09:32.779Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757524172779",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-10T17:09:48.197Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-10T17:10:03.688Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "duration": 15491,
+      "awayTimeSeconds": 15
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-10T17:10:20.079Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "duration": 0
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-10T17:10:20.539Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "duration": 460,
+      "awayTimeSeconds": 0
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-10T17:10:47.582Z",
+      "sessionId": "auto-1757524172779_1757524172779",
+      "totalEvents": 5,
+      "suspiciousActivity": {
+        "windowSwitches": 2,
+        "suspiciousProcesses": [],
+        "clipboardEvents": 0,
+        "pasteAttempts": 0
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 2,
+    "suspiciousProcesses": [],
+    "clipboardEvents": 0,
+    "pasteAttempts": 0
+  },
+  "riskLevel": "NONE",
+  "score": 4,
+  "generatedAt": "2025-09-10T17:10:47.585Z"
+}

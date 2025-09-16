@@ -1,0 +1,143 @@
+[2025-09-13T19:31:05.646Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T19-31-05-646Z.log
+[2025-09-13T19:31:08.602Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-13T19:31:11.007Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:11.012Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["chrome.exe","whatsapp.exe"]
+[2025-09-13T19:31:11.014Z] [LOG] [AntiCheat][Startup] Warning about medium violations
+[2025-09-13T19:31:13.183Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T19:31:13.305Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T19:31:13.307Z] [LOG] [AntiCheat] SESSION_START: {"candidateName":"DevAutoCandidate","interviewId":"auto-1757791873307","sessionId":"auto-1757791873307_1757791873307","role":"candidate","testStarted":true,"timestamp":"2025-09-13T19:31:13.307Z"}
+[2025-09-13T19:31:13.407Z] [LOG] [AntiCheat] Session started: auto-1757791873307_1757791873307
+[2025-09-13T19:31:13.509Z] [LOG] [AntiCheat][AUTO] Dev auto session initialized
+[2025-09-13T19:31:13.552Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-13T19:31:13.570Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-13T19:31:23.570Z
+[2025-09-13T19:31:13.576Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-13T19:31:13.647Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=idle, current=active)
+[2025-09-13T19:31:13.649Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757791873307_1757791873307","eventCount":1,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"riskLevel":"NONE","score":0,"role":"candidate","testStarted":true}
+[2025-09-13T19:31:14.252Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:14.880Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-13T19:31:17.705Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:17.711Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:17.726Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:17.739Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:17.739Z"}
+[2025-09-13T19:31:18.662Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":1517,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-13T19:31:18.662Z"}
+[2025-09-13T19:31:18.674Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":1517,"preview":"1️⃣ Suppress repeated navigation logs\n\nRight now, ...","timestamp":"2025-09-13T19:31:18.674Z"}
+[2025-09-13T19:31:20.660Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:21.336Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:22.164Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:22.181Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:22.185Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:22.203Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:22.203Z"}
+[2025-09-13T19:31:26.462Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:27.660Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:29.335Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:29.341Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:29.364Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:29.372Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:29.372Z"}
+[2025-09-13T19:31:32.817Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:34.665Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:37.266Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:37.278Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:37.312Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:37.313Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:37.313Z"}
+[2025-09-13T19:31:39.059Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:41.674Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:42.922Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:42.949Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:42.953Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:42.965Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:42.965Z"}
+[2025-09-13T19:31:45.183Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:48.675Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:49.900Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:49.906Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:49.942Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:49.956Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:49.955Z"}
+[2025-09-13T19:31:50.923Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:55.680Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:31:57.210Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:57.246Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:57.252Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:31:57.269Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:31:57.274Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:31:57.274Z"}
+[2025-09-13T19:32:02.621Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:02.688Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:03.777Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:03.783Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:03.799Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:03.803Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:03.803Z"}
+[2025-09-13T19:32:08.849Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:09.700Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:12.351Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:12.424Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:12.490Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:12.493Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:12.493Z"}
+[2025-09-13T19:32:16.554Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:16.714Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:18.382Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:18.389Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:18.395Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:18.398Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:18.398Z"}
+[2025-09-13T19:32:21.080Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:23.720Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:26.046Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:26.049Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:26.059Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:26.094Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:26.094Z"}
+[2025-09-13T19:32:27.094Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:30.726Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:32.079Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:32.095Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:32.155Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:32.156Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:32.156Z"}
+[2025-09-13T19:32:33.540Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:37.733Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:39.086Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:39.104Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:39.113Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:39.125Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:39.125Z"}
+[2025-09-13T19:32:39.197Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:44.642Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:44.749Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:45.788Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:45.798Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:45.805Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:45.807Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:45.807Z"}
+[2025-09-13T19:32:50.707Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:51.758Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:53.471Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:53.477Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:53.479Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:32:53.482Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:32:53.482Z"}
+[2025-09-13T19:32:56.691Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:32:58.762Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:32:59.265Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-13T19:32:59.265Z"}
+[2025-09-13T19:33:00.023Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:00.028Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:00.068Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:33:00.070Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:33:00.070Z"}
+[2025-09-13T19:33:01.623Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":2358,"awayTimeSeconds":2,"timestamp":"2025-09-13T19:33:01.623Z"}
+[2025-09-13T19:33:04.379Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-13T19:33:04.379Z"}
+[2025-09-13T19:33:05.342Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:05.832Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:33:07.778Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:07.783Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:07.787Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:33:07.794Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:33:07.794Z"}
+[2025-09-13T19:33:09.094Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:12.840Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:33:14.846Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:14.849Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:14.857Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:33:14.871Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:33:14.871Z"}
+[2025-09-13T19:33:15.330Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:19.854Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:33:21.083Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:21.090Z] [LOG] [AntiCheat][DECIDE] willTerminate= false isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:21.109Z] [LOG] [AntiCheat][WARNING] Detected medium/low severity processes: ["chrome.exe","whatsapp.exe"] threat level: medium
+[2025-09-13T19:33:21.122Z] [LOG] [AntiCheat] PROCESS_WARNING: {"processes":["chrome.exe","whatsapp.exe"],"threatLevel":"medium","reason":"Medium/low severity violation - warning only","timestamp":"2025-09-13T19:33:21.122Z"}
+[2025-09-13T19:33:21.133Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
+[2025-09-13T19:33:26.968Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-13T19:33:27.933Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":23554,"awayTimeSeconds":24,"timestamp":"2025-09-13T19:33:27.933Z"}
+[2025-09-13T19:33:29.821Z] [LOG] [AntiCheat] SESSION_END: {"sessionId":"auto-1757791873307_1757791873307","totalEvents":66,"suspiciousActivity":{"windowSwitches":2,"suspiciousProcesses":[null],"clipboardEvents":1,"pasteAttempts":1},"timestamp":"2025-09-13T19:33:29.821Z"}
+[2025-09-13T19:33:29.910Z] [LOG] [AntiCheat] Session log saved: C:\Users\Hp\Desktop\codevail-app\logs\session_auto-1757791873307_1757791873307.json
+[2025-09-13T19:33:29.985Z] [LOG] [AntiCheat] Session ended: auto-1757791873307_1757791873307
+[2025-09-13T19:33:30.211Z] [LOG] [Diag] Process exiting with code 0

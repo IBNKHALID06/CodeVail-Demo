@@ -1,0 +1,45 @@
+[2025-09-10T16:12:36.622Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-10T16-12-36-615Z.log
+[2025-09-10T16:12:44.584Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-10T16:12:48.707Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-10T16:12:48.710Z] [LOG] [AntiCheat] Starting process monitoring interval (7 seconds, single high severity triggers)
+[2025-09-10T16:12:48.711Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-10T16:12:53.714Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":703,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-10T16:12:53.714Z"}
+[2025-09-10T16:12:53.720Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":703,"preview":"[AntiCheat] Running process check...\r\n[AntiCheat] ...","timestamp":"2025-09-10T16:12:53.720Z"}
+[2025-09-10T16:12:55.722Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:00.143Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:00.163Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:02.737Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:06.387Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:06.485Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:09.739Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:14.631Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:14.683Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:16.742Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:18.920Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:18.931Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:22.968Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-10T16:13:22.968Z"}
+[2025-09-10T16:13:23.812Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:30.820Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:31.053Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:31.076Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:32.095Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:32.106Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:37.827Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:40.025Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":17057,"awayTimeSeconds":17,"timestamp":"2025-09-10T16:13:40.025Z"}
+[2025-09-10T16:13:42.610Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:42.672Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:44.830Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:47.888Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:47.893Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:51.843Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:13:54.590Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-10T16:13:54.590Z"}
+[2025-09-10T16:13:55.367Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:13:55.399Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:13:58.858Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:14:01.326Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:14:01.331Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:14:05.873Z] [LOG] [AntiCheat] Running process check...
+[2025-09-10T16:14:07.746Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","discord.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","discord","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":["discord.exe","discord"],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T16:14:07.759Z] [LOG] [AntiCheat] Violation before test start; no termination.
+[2025-09-10T16:14:08.121Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":13531,"awayTimeSeconds":14,"timestamp":"2025-09-10T16:14:08.121Z"}
+[2025-09-10T16:14:10.241Z] [LOG] [Diag] Process exiting with code 0

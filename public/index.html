@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./codevail-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#3B82F6" />
+    <meta
+      name="description"
+      content="CodeVail - Modern platform for technical interviews and coding assessments"
+    />
+    <link rel="apple-touch-icon" href="./codevail-logo.png" />
+    <title>CodeVail - Interview Platform</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+        color: #F8FAFC;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 1rem;
+        background: linear-gradient(135deg, #3B82F6, #2563EB);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: white;
+      }
+
+      .title {
+        font-size: 3rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #3B82F6, #60A5FA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+      }
+
+      .subtitle {
+        font-size: 1.25rem;
+        color: #CBD5E1;
+        margin-bottom: 2rem;
+      }
+
+      .interfaces-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+      }
+
+      .interface-card {
+        background: rgba(30, 41, 59, 0.8);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(71, 85, 105, 0.3);
+        border-radius: 16px;
+        padding: 2rem;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .interface-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        border-color: #3B82F6;
+      }
+
+      .interface-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #3B82F6, #0EA5E9);
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+      }
+
+      .interface-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .card-icon {
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(135deg, #3B82F6, #2563EB);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+      }
+
+      .card-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #F8FAFC;
+      }
+
+      .card-description {
+        color: #94A3B8;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+
+      .card-features {
+        list-style: none;
+        margin-top: 1rem;
+      }
+
+      .card-features li {
+        color: #CBD5E1;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        padding-left: 1.5rem;
+      }
+
+      .card-features li::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #22C55E;
+        font-weight: bold;
+      }
+
+      .quick-links {
+        background: rgba(51, 65, 85, 0.6);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(71, 85, 105, 0.2);
+        border-radius: 16px;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      .quick-links h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #F8FAFC;
+      }
+
+      .quick-links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      .quick-link {
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(59, 130, 246, 0.3);
+        border-radius: 8px;
+        padding: 1rem;
+        text-decoration: none;
+        color: #60A5FA;
+        transition: all 0.3s ease;
+        font-weight: 500;
+      }
+
+      .quick-link:hover {
+        background: rgba(59, 130, 246, 0.2);
+        border-color: #3B82F6;
+        color: #93C5FD;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(71, 85, 105, 0.3);
+        color: #94A3B8;
+      }
+
+      @media (max-width: 768px) {
+        .title {
+          font-size: 2rem;
+        }
+        
+        .interfaces-grid {
+          grid-template-columns: 1fr;
+        }
+        
+        .quick-links-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <div class="container">
+      <div class="header">
+        <div class="logo">CV</div>
+        <h1 class="title">CodeVail</h1>
+        <p class="subtitle">Modern Platform for Technical Interviews & Coding Assessments</p>
+      </div>
+
+      <div class="interfaces-grid">
+                <a href="/login" class="interface-card">
+          <i class="fas fa-sign-in-alt card-icon"></i>
+          <h3 class="card-title">Login</h3>
+          <p class="card-description">Sign in to access your dashboard</p>
+
+        <a href="/login" class="interface-card">
+          <div class="card-icon">🔐</div>
+          <h3 class="card-title">Login Portal</h3>
+          <p class="card-description">Secure authentication for candidates and interviewers</p>
+          <ul class="card-features">
+            <li>Role-based authentication</li>
+            <li>Secure login system</li>
+            <li>Password recovery</li>
+          </ul>
+        </a>
+
+        <a href="/candidate-dashboard" class="interface-card">
+          <div class="card-icon">👨‍💻</div>
+          <h3 class="card-title">Candidate Dashboard</h3>
+          <p class="card-description">Comprehensive dashboard for interview candidates</p>
+          <ul class="card-features">
+            <li>Interview schedule</li>
+            <li>Practice sessions</li>
+            <li>Performance analytics</li>
+            <li>Resource library</li>
+          </ul>
+        </a>
+
+        <a href="/interviewer-dashboard" class="interface-card">
+          <div class="card-icon">👩‍🏫</div>
+          <h3 class="card-title">Interviewer Dashboard</h3>
+          <p class="card-description">Advanced tools for conducting technical interviews</p>
+          <ul class="card-features">
+            <li>Interview management</li>
+            <li>Real-time collaboration</li>
+            <li>Assessment tools</li>
+            <li>Candidate evaluation</li>
+          </ul>
+        </a>
+
+        <a href="/interview" class="interface-card">
+          <div class="card-icon">💼</div>
+          <h3 class="card-title">Tech Interview</h3>
+          <p class="card-description">Interactive coding interview environment</p>
+          <ul class="card-features">
+            <li>Live code editor</li>
+            <li>Multiple languages</li>
+            <li>Real-time execution</li>
+            <li>Screen sharing</li>
+          </ul>
+        </a>
+
+        <a href="/call" class="interface-card">
+          <div class="card-icon">📹</div>
+          <h3 class="card-title">Video Call Room</h3>
+          <p class="card-description">High-quality video conferencing for interviews</p>
+          <ul class="card-features">
+            <li>HD video/audio</li>
+            <li>Screen sharing</li>
+            <li>Recording capability</li>
+            <li>Chat functionality</li>
+          </ul>
+        </a>
+
+        <a href="/results" class="interface-card">
+          <div class="card-icon">📊</div>
+          <h3 class="card-title">Test Results</h3>
+          <p class="card-description">Detailed analysis and feedback on interview performance</p>
+          <ul class="card-features">
+            <li>Performance metrics</li>
+            <li>Code quality analysis</li>
+            <li>Detailed feedback</li>
+            <li>Improvement suggestions</li>
+          </ul>
+        </a>
+
+        <a href="/" class="interface-card">
+          <div class="card-icon">🎯</div>
+          <h3 class="card-title">Main App</h3>
+          <p class="card-description">Core application with integrated coding environment</p>
+          <ul class="card-features">
+            <li>Monaco code editor</li>
+            <li>Interview sessions</li>
+            <li>History tracking</li>
+            <li>Multi-window interface</li>
+          </ul>
+        </a>
+      </div>
+
+      <div class="quick-links">
+        <h3>Quick Navigation</h3>
+        <div class="quick-links-grid">
+          <a href="/login" class="quick-link">Get Started</a>
+          <a href="/login" class="quick-link">Sign In</a>
+          <a href="/candidate-dashboard" class="quick-link">For Candidates</a>
+          <a href="/interviewer-dashboard" class="quick-link">For Interviewers</a>
+          <a href="/interview" class="quick-link">Start Interview</a>
+          <a href="/call" class="quick-link">Join Call</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2025 CodeVail. Built for modern technical interviews.</p>
+      </div>
+    </div>
+
+    <div id="root"></div>
+  </body>
+</html>

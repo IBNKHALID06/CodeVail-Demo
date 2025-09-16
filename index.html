@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVail - Secure Coding Interview Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Window Title Bar -->
+    <div class="window-title-bar">
+        <div class="title-bar-left">
+            <div class="logo-container">
+                <div class="logo-shield">
+                    <span class="logo-brackets">&lt;&gt;</span>
+                </div>
+                <div class="title-info">
+                    <span class="app-title">CodeVail</span>
+                    <span class="app-subtitle">Secure Coding Interview Platform</span>
+                </div>
+            </div>
+        </div>
+        <div class="window-controls">
+            <button class="window-btn minimize-btn" onclick="minimizeWindow()">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button class="window-btn maximize-btn" onclick="toggleMaximize()">
+                <i class="fas fa-square"></i>
+            </button>
+            <button class="window-btn close-btn" onclick="closeWindow()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Application Container -->
+    <div class="app-container">
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <div class="background-pattern"></div>
+            
+            <!-- Header -->
+            <header class="app-header">
+                <div class="logo-large">
+                    <div class="logo-shield-large">
+                        <span class="logo-brackets-large">&lt;&gt;</span>
+                    </div>
+                    <span class="logo-text-large">CodeVail</span>
+                </div>
+                <div class="header-info">
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Secure Environment</span>
+                    </div>
+                    <div class="version">v1.0.0</div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Hero Section -->
+                <div class="hero-section">
+                    <div class="hero-logo">
+                        <div class="hero-shield">
+                            <span class="hero-brackets">&lt;&gt;</span>
+                        </div>
+                    </div>
+                    <h1 class="hero-title">
+                        Code<span class="text-primary">Vail</span>
+                    </h1>
+                    <p class="hero-description">
+                        Professional coding interview platform with advanced security monitoring and real-time assessment capabilities
+                    </p>
+
+                    <!-- Feature Pills -->
+                    <div class="feature-pills">
+                        <div class="feature-pill">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure</span>
+                        </div>
+                        <div class="feature-pill">
+                            <i class="fas fa-desktop"></i>
+                            <span>Monitored</span>
+                        </div>
+                        <div class="feature-pill">
+                            <i class="fas fa-award"></i>
+                            <span>Professional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Cards -->
+                <div class="action-cards">
+                    <div class="action-card" onclick="showInterviewCodeScreen()">
+                        <div class="card-icon primary">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Start Interview</h3>
+                            <p class="card-subtitle">Enter your interview code</p>
+                            <p class="card-description">
+                                Begin your coding assessment with advanced IDE features, real-time monitoring, and professional evaluation tools.
+                            </p>
+                            <button class="btn-primary">
+                                <span>Enter Interview Code</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="action-card" onclick="showHistoryScreen()">
+                        <div class="card-icon accent">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Session History</h3>
+                            <p class="card-subtitle">Review past interviews</p>
+                            <p class="card-description">
+                                Access detailed reports, code solutions, and performance analytics from your previous coding sessions.
+                            </p>
+                            <button class="btn-secondary">
+                                <span>View History</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="stats-section">
+                    <div class="stat-item">
+                        <div class="stat-icon primary">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="stat-value">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon accent">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-value">10K+</div>
+                        <div class="stat-label">Interviews</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon primary">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Secure</div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <footer class="app-footer">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <div class="security-status">
+                            <i class="fas fa-desktop"></i>
+                            <span>Anti-Cheat: Active</span>
+                        </div>
+                        <div class="divider"></div>
+                        <span>Secure Environment Verified</span>
+                    </div>
+                    <div class="footer-right">
+                        © 2024 CodeVail. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Interview Code Screen -->
+        <div id="interview-code-screen" class="screen">
+            <div class="background-pattern"></div>
+            
+            <!-- Header -->
+            <header class="screen-header">
+                <button class="back-btn" onclick="showHomeScreen()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <div class="screen-title">
+                    <div class="title-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="title-text">
+                        <h1>Interview Access</h1>
+                        <p>Click "Get Started" to begin</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="screen-main">
+                <div class="interview-form">
+                    <!-- Hero Section -->
+                    <div class="form-hero">
+                        <div class="form-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <h2>Enter Interview Code</h2>
+                        <p>Please enter the unique access code provided by your interviewer to begin your secure coding assessment.</p>
+                    </div>
+
+                    <!-- Input Section -->
+                    <div class="form-section">
+                        <div class="input-container">
+                            <input 
+                                type="text" 
+                                id="interview-code-input" 
+                                class="code-input" 
+                                placeholder="Enter interview code"
+                                maxlength="12"
+                                oninput="handleCodeInput(this)"
+                                onkeypress="handleCodeKeyPress(event)"
+                            >
+                            <div id="validation-error" class="error-message hidden">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <button id="start-interview-btn" class="btn-primary large" onclick="validateAndStart()" disabled>
+                            <span class="btn-text">Start Interview</span>
+                            <span class="btn-loading hidden">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Validating Code...
+                            </span>
+                            <i class="fas fa-play btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Demo Section -->
+                    <div class="demo-section">
+                        <div class="demo-header">
+                            <i class="fas fa-sparkles"></i>
+                            <span>Demo Codes</span>
+                        </div>
+                        <p>For demonstration purposes, try one of these codes:</p>
+                        <div class="demo-codes">
+                            <button class="demo-code" onclick="setDemoCode('TECH2024')">TECH2024</button>
+                            <button class="demo-code" onclick="setDemoCode('INTERVIEW123')">INTERVIEW123</button>
+                            <button class="demo-code" onclick="setDemoCode('CODING456')">CODING456</button>
+                        </div>
+                    </div>
+
+                    <!-- Security Badge -->
+                    <div class="security-badge">
+                        <div class="security-icons">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span>Secure connection established</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- History Screen -->
+        <div id="history-screen" class="screen">
+            <div class="background-pattern"></div>
+            
+            <!-- Header -->
+            <header class="screen-header">
+                <button class="back-btn" onclick="showHomeScreen()">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <div class="screen-title">
+                    <div class="title-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <div class="title-text">
+                        <h1>Session History</h1>
+                        <p>Review your past interviews</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="screen-main">
+                <div id="history-content" class="history-content">
+                    <!-- History items will be populated by JavaScript -->
+                </div>
+            </main>
+        </div>
+
+        <!-- Interview Screen -->
+        <div id="interview-screen" class="screen">
+            <div class="interview-header">
+                <div class="interview-info">
+                    <button class="back-btn" onclick="endInterview()">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <div class="interview-title">
+                        <h1 id="problem-title">Two Sum</h1>
+                        <div class="interview-meta">
+                            <span class="difficulty easy">Easy</span>
+                            <span class="interview-code-display">Interview Code: <span id="current-code"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="interview-controls">
+                    <div class="timer">
+                        <div class="timer-dot"></div>
+                        <div class="timer-display">
+                            <div id="timer-value" class="timer-value">00:00</div>
+                            <div class="timer-label">Session Time</div>
+                        </div>
+                    </div>
+                    <div class="security-status active">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Monitoring: Active</span>
+                    </div>
+                    <button class="btn-danger" onclick="endInterview()">
+                        <i class="fas fa-stop"></i>
+                        End Interview
+                    </button>
+                </div>
+            </div>
+
+            <div class="interview-body">
+                <!-- Problem Panel -->
+                <div id="problem-panel" class="problem-panel">
+                    <div class="panel-header">
+                        <h3>Problem Description</h3>
+                        <button class="collapse-btn" onclick="toggleProblemPanel()">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                    </div>
+                    <div class="panel-content">
+                        <div id="problem-description" class="problem-description">
+                            <!-- Problem content will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code Editor Panel -->
+                <div class="editor-panel">
+                    <div class="editor-header">
+                        <div class="editor-title">
+                            <h3>Code Editor</h3>
+                            <select id="language-select" class="language-select" onchange="changeLanguage(this.value)">
+                                <option value="javascript">JavaScript</option>
+                                <option value="python">Python</option>
+                            </select>
+                        </div>
+                        <div class="editor-controls">
+                            <button class="btn-ghost" onclick="resetCode()">
+                                <i class="fas fa-undo"></i>
+                                Reset
+                            </button>
+                            <button class="btn-secondary" onclick="runCode()">
+                                <i class="fas fa-play"></i>
+                                Run Code
+                            </button>
+                            <button class="btn-primary" onclick="runTests()">
+                                <i class="fas fa-play"></i>
+                                Run Tests
+                            </button>
+                            <button class="btn-success" onclick="submitSolution()">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                    <div class="editor-container">
+                        <textarea id="code-editor" class="code-editor" spellcheck="false"></textarea>
+                    </div>
+                    
+                    <!-- Output Panel -->
+                    <div class="output-panel">
+                        <div class="output-header">
+                            <h3>Execution Results</h3>
+                            <div id="test-summary" class="test-summary hidden">
+                                <div class="test-stat passed">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span id="tests-passed">0</span> passed
+                                </div>
+                                <div class="test-stat failed">
+                                    <i class="fas fa-times-circle"></i>
+                                    <span id="tests-failed">0</span> failed
+                                </div>
+                                <div class="test-score">
+                                    Score: <span id="test-score">0</span>%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="output-content">
+                            <pre id="output-display" class="output-display">// Click "Run Code" to execute your solution or "Run Tests" to test against all cases</pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Monitor Panel -->
+                <div id="security-panel" class="security-panel">
+                    <div class="panel-header">
+                        <h3>
+                            <i class="fas fa-shield-alt"></i>
+                            Security Monitor
+                        </h3>
+                        <div class="status-dot active"></div>
+                    </div>
+                    <div class="panel-content">
+                        <div class="security-status-overview">
+                            <div class="status-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span class="status-text secure">System Secure</span>
+                            </div>
+                            <div class="status-item">
+                                <i class="fas fa-eye"></i>
+                                <span class="status-text">Screen Recording: Active</span>
+                            </div>
+                            <div class="status-item">
+                                <i class="fas fa-wifi"></i>
+                                <span class="status-text">Network Monitor: Active</span>
+                            </div>
+                        </div>
+
+                        <div class="security-section">
+                            <h4>Running Processes</h4>
+                            <div id="process-list" class="process-list">
+                                <!-- Processes will be populated by JavaScript -->
+                            </div>
+                        </div>
+
+                        <div class="security-section">
+                            <h4>Security Alerts</h4>
+                            <div id="alerts-list" class="alerts-list">
+                                <div class="no-alerts">No alerts</div>
+                            </div>
+                        </div>
+
+                        <div class="security-section">
+                            <h4>System Stats</h4>
+                            <div class="system-stats">
+                                <div class="stat-row">
+                                    <span>CPU Usage:</span>
+                                    <span>12%</span>
+                                </div>
+                                <div class="stat-row">
+                                    <span>Memory:</span>
+                                    <span>4.2GB / 16GB</span>
+                                </div>
+                                <div class="stat-row">
+                                    <span>Uptime:</span>
+                                    <span id="uptime">0h 0m</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

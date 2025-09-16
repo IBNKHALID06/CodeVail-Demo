@@ -1,0 +1,225 @@
+{
+  "sessionId": "auto-1757980255932_1757980255932",
+  "events": [
+    {
+      "type": "SESSION_START",
+      "timestamp": "2025-09-15T23:50:55.932Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "candidateName": "DevAutoCandidate",
+      "interviewId": "auto-1757980255932",
+      "role": "candidate",
+      "testStarted": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:51:01.028Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:51:01.138Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:51:01.375Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "processes": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:51:05.861Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "banned": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:51:06.702Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "processes": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:51:06.840Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:51:15.013Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "processes": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "WINDOW_LOST_FOCUS",
+      "timestamp": "2025-09-15T23:51:15.984Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "duration": 0
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:51:16.741Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "banned": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:51:17.181Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:51:17.189Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:51:21.848Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "processes": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "PROCESS_SCAN",
+      "timestamp": "2025-09-15T23:51:22.474Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "banned": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "INTERVIEW_TERMINATED",
+      "timestamp": "2025-09-15T23:51:22.567Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "reason": "Critical security violations detected",
+      "violations": [
+        "whatsapp.exe"
+      ],
+      "filteredViolations": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "terminationTriggered": true
+    },
+    {
+      "type": "SUSPICIOUS_PROCESS",
+      "timestamp": "2025-09-15T23:51:28.585Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "processes": [
+        "whatsapp.exe"
+      ],
+      "criticalViolations": [],
+      "highSeverityViolations": [],
+      "threatLevel": "medium",
+      "shouldTerminate": true
+    },
+    {
+      "type": "WINDOW_REGAINED_FOCUS",
+      "timestamp": "2025-09-15T23:51:29.773Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "duration": 13789,
+      "awayTimeSeconds": 14
+    },
+    {
+      "type": "CLIPBOARD_CHANGE",
+      "timestamp": "2025-09-15T23:51:31.110Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "isLargePaste": true,
+      "containsCode": true
+    },
+    {
+      "type": "LARGE_PASTE_DETECTED",
+      "timestamp": "2025-09-15T23:51:31.152Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "contentLength": 934,
+      "preview": "Thought for 3sHere's the complete `App.tsx` file w..."
+    },
+    {
+      "type": "SESSION_END",
+      "timestamp": "2025-09-15T23:52:45.320Z",
+      "sessionId": "auto-1757980255932_1757980255932",
+      "totalEvents": 19,
+      "suspiciousActivity": {
+        "windowSwitches": 1,
+        "suspiciousProcesses": [
+          null
+        ],
+        "clipboardEvents": 3,
+        "pasteAttempts": 3
+      }
+    }
+  ],
+  "suspiciousActivity": {
+    "windowSwitches": 1,
+    "suspiciousProcesses": [
+      null
+    ],
+    "clipboardEvents": 3,
+    "pasteAttempts": 3
+  },
+  "riskLevel": "HIGH",
+  "score": 30,
+  "generatedAt": "2025-09-15T23:52:45.330Z"
+}

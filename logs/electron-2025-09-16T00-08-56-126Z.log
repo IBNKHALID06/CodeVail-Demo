@@ -1,0 +1,103 @@
+[2025-09-16T00:08:56.127Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-16T00-08-56-126Z.log
+[2025-09-16T00:09:02.974Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-16T00:09:05.502Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:05.524Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["whatsapp.exe"]
+[2025-09-16T00:09:05.529Z] [LOG] [AntiCheat][Startup] Warning about medium violations
+[2025-09-16T00:09:10.023Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-16T00:09:10.089Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-16T00:09:10.092Z] [LOG] [AntiCheat] SESSION_START: {"candidateName":"DevAutoCandidate","interviewId":"auto-1757981350092","sessionId":"auto-1757981350092_1757981350092","role":"candidate","testStarted":true,"timestamp":"2025-09-16T00:09:10.092Z"}
+[2025-09-16T00:09:10.322Z] [LOG] [AntiCheat] Session started: auto-1757981350092_1757981350092
+[2025-09-16T00:09:10.336Z] [LOG] [AntiCheat][AUTO] Dev auto session initialized
+[2025-09-16T00:09:10.340Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-16T00:09:10.342Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-16T00:09:20.342Z
+[2025-09-16T00:09:10.363Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-16T00:09:10.367Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=idle, current=active)
+[2025-09-16T00:09:10.369Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757981350092_1757981350092","eventCount":1,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"riskLevel":"NONE","score":0,"role":"candidate","testStarted":true}
+[2025-09-16T00:09:10.976Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:11.191Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-16T00:09:15.383Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":934,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-16T00:09:15.383Z"}
+[2025-09-16T00:09:15.403Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":934,"preview":"Thought for 3sHere's the complete `App.tsx` file w...","timestamp":"2025-09-16T00:09:15.403Z"}
+[2025-09-16T00:09:15.748Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:15.764Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:15.771Z] [LOG] [AntiCheat][GRACE] Suppressing termination inside periodic process check until 2025-09-16T00:09:20.342Z
+[2025-09-16T00:09:17.369Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:19.264Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:19.313Z] [LOG] [AntiCheat][BOOT][GRACE] Violation detected but within grace window; suppression active
+[2025-09-16T00:09:21.250Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:21.316Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:21.387Z] [LOG] [AntiCheat] Terminating due to violation: {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:21.416Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["whatsapp.exe"]
+[2025-09-16T00:09:21.418Z] [LOG] [AntiCheat] Monitoring STOPPED
+[2025-09-16T00:09:21.438Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["whatsapp.exe"],"filteredViolations":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","timestamp":"2025-09-16T00:09:21.438Z","terminationTriggered":true}
+[2025-09-16T00:09:22.681Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3000/interview-terminated?data=eyJ2IjpbIndoYXRzYXBwLmV4ZSJdLCJ0bCI6Im1lZGl1bSIsInRzIjoxNzU3OTgxMzYyNjgxfQ%3D%3D
+[2025-09-16T00:09:25.507Z] [LOG] [AntiCheat] terminationInProgress cleared (termination page loaded)
+[2025-09-16T00:09:25.559Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-16T00:09:25.579Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-16T00:09:35.579Z
+[2025-09-16T00:09:25.590Z] [LOG] [AntiCheat] startMonitoring from completed -> rearming (new session assumed)
+[2025-09-16T00:09:25.621Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-16T00:09:25.622Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=completed, current=active)
+[2025-09-16T00:09:25.624Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757981350092_1757981350092","eventCount":7,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[null],"clipboardEvents":1,"pasteAttempts":1},"riskLevel":"MEDIUM","score":16,"role":"candidate","testStarted":true}
+[2025-09-16T00:09:26.233Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:26.282Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-16T00:09:29.627Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:29.685Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:29.729Z] [LOG] [AntiCheat][GRACE] Suppressing termination inside periodic process check until 2025-09-16T00:09:35.579Z
+[2025-09-16T00:09:30.637Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":934,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-16T00:09:30.637Z"}
+[2025-09-16T00:09:30.711Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":934,"preview":"Thought for 3sHere's the complete `App.tsx` file w...","timestamp":"2025-09-16T00:09:30.711Z"}
+[2025-09-16T00:09:31.399Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-16T00:09:31.399Z"}
+[2025-09-16T00:09:32.634Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:33.680Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:33.707Z] [LOG] [AntiCheat][BOOT][GRACE] Violation detected but within grace window; suppression active
+[2025-09-16T00:09:35.211Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:35.223Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:35.241Z] [LOG] [AntiCheat][GRACE] Suppressing termination inside periodic process check until 2025-09-16T00:09:35.579Z
+[2025-09-16T00:09:36.592Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":true}
+[2025-09-16T00:09:36.601Z] [LOG] [AntiCheat][BOOT] Terminating via bootstrap scan...
+[2025-09-16T00:09:36.604Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["whatsapp.exe"]
+[2025-09-16T00:09:36.605Z] [LOG] [AntiCheat] Monitoring STOPPED
+[2025-09-16T00:09:36.606Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["whatsapp.exe"],"filteredViolations":["whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","timestamp":"2025-09-16T00:09:36.606Z","terminationTriggered":true}
+[2025-09-16T00:09:37.815Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3000/interview-terminated?data=eyJ2IjpbIndoYXRzYXBwLmV4ZSJdLCJ0bCI6Im1lZGl1bSIsInRzIjoxNzU3OTgxMzc3ODE1fQ%3D%3D
+[2025-09-16T00:09:41.665Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-16T00:09:41.789Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-16T00:09:51.789Z
+[2025-09-16T00:09:41.790Z] [LOG] [AntiCheat] startMonitoring from completed -> rearming (new session assumed)
+[2025-09-16T00:09:41.792Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-16T00:09:41.795Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=completed, current=active)
+[2025-09-16T00:09:41.797Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757981350092_1757981350092","eventCount":15,"suspiciousActivity":{"windowSwitches":1,"suspiciousProcesses":[null],"clipboardEvents":2,"pasteAttempts":2},"riskLevel":"HIGH","score":24,"role":"candidate","testStarted":true}
+[2025-09-16T00:09:42.409Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:42.488Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-16T00:09:46.798Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":934,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-16T00:09:46.798Z"}
+[2025-09-16T00:09:46.812Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":934,"preview":"Thought for 3sHere's the complete `App.tsx` file w...","timestamp":"2025-09-16T00:09:46.812Z"}
+[2025-09-16T00:09:47.008Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:47.015Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:47.031Z] [LOG] [AntiCheat][GRACE] Suppressing termination inside periodic process check until 2025-09-16T00:09:51.789Z
+[2025-09-16T00:09:48.829Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:09:48.974Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":17576,"awayTimeSeconds":18,"timestamp":"2025-09-16T00:09:48.974Z"}
+[2025-09-16T00:09:50.224Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:50.290Z] [LOG] [AntiCheat][BOOT][GRACE] Violation detected but within grace window; suppression active
+[2025-09-16T00:09:52.878Z] [LOG] [AntiCheat] WINDOW_LOST_FOCUS: {"duration":0,"timestamp":"2025-09-16T00:09:52.878Z"}
+[2025-09-16T00:09:53.746Z] [LOG] [AntiCheat] WINDOW_REGAINED_FOCUS: {"duration":868,"awayTimeSeconds":1,"timestamp":"2025-09-16T00:09:53.746Z"}
+[2025-09-16T00:09:54.256Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:54.273Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:54.281Z] [LOG] [AntiCheat] Terminating due to violation: {"processes":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:54.287Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["discord.exe","whatsapp.exe"]
+[2025-09-16T00:09:54.304Z] [LOG] [AntiCheat] Monitoring STOPPED
+[2025-09-16T00:09:54.374Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["discord.exe","whatsapp.exe"],"filteredViolations":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","timestamp":"2025-09-16T00:09:54.374Z","terminationTriggered":true}
+[2025-09-16T00:09:55.725Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3000/interview-terminated?data=eyJ2IjpbImRpc2NvcmQuZXhlIiwid2hhdHNhcHAuZXhlIl0sInRsIjoiaGlnaCIsInRzIjoxNzU3OTgxMzk1NzI1fQ%3D%3D
+[2025-09-16T00:09:58.425Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","shouldTerminate":true}
+[2025-09-16T00:09:58.455Z] [LOG] [AntiCheat][BOOT] Terminating via bootstrap scan...
+[2025-09-16T00:09:58.458Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["discord.exe","whatsapp.exe"]
+[2025-09-16T00:09:58.461Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["discord.exe","whatsapp.exe"],"filteredViolations":["discord.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":["discord.exe"],"threatLevel":"high","timestamp":"2025-09-16T00:09:58.461Z","terminationTriggered":true}
+[2025-09-16T00:09:58.952Z] [LOG] [AntiCheat] terminationInProgress cleared (termination page loaded)
+[2025-09-16T00:09:59.023Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-16T00:09:59.025Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-16T00:10:09.025Z
+[2025-09-16T00:09:59.046Z] [LOG] [AntiCheat] startMonitoring from completed -> rearming (new session assumed)
+[2025-09-16T00:09:59.047Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-16T00:09:59.080Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=completed, current=active)
+[2025-09-16T00:09:59.107Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757981350092_1757981350092","eventCount":26,"suspiciousActivity":{"windowSwitches":2,"suspiciousProcesses":[null],"clipboardEvents":3,"pasteAttempts":3},"riskLevel":"HIGH","score":32,"role":"candidate","testStarted":true}
+[2025-09-16T00:09:59.678Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3000/interview-terminated?data=eyJ2IjpbImRpc2NvcmQuZXhlIiwid2hhdHNhcHAuZXhlIl0sInRsIjoiaGlnaCIsInRzIjoxNzU3OTgxMzk5Njc4fQ%3D%3D
+[2025-09-16T00:09:59.778Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-16T00:10:00.007Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-16T00:10:02.429Z] [LOG] [AntiCheat] SESSION_END: {"sessionId":"auto-1757981350092_1757981350092","totalEvents":26,"suspiciousActivity":{"windowSwitches":2,"suspiciousProcesses":[null],"clipboardEvents":3,"pasteAttempts":3},"timestamp":"2025-09-16T00:10:02.428Z"}
+[2025-09-16T00:10:02.472Z] [LOG] [AntiCheat] Session log saved: C:\Users\Hp\Desktop\codevail-app\logs\session_auto-1757981350092_1757981350092.json
+[2025-09-16T00:10:02.519Z] [LOG] [AntiCheat] Session ended: auto-1757981350092_1757981350092
+[2025-09-16T00:10:02.605Z] [LOG] [Diag] Process exiting with code 0

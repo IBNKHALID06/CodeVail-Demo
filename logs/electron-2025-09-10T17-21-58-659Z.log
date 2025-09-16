@@ -1,0 +1,30 @@
+[2025-09-10T17:21:58.668Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-10T17-21-58-659Z.log
+[2025-09-10T17:22:04.169Z] [LOG] Loading dev URL: http://localhost:3001
+[2025-09-10T17:22:08.770Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-10T17:22:08.771Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-10T17:22:08.772Z] [LOG] [AntiCheat] SESSION_START: {"candidateName":"DevAutoCandidate","interviewId":"auto-1757524928772","sessionId":"auto-1757524928772_1757524928772","role":"candidate","testStarted":true,"timestamp":"2025-09-10T17:22:08.772Z"}
+[2025-09-10T17:22:08.778Z] [LOG] [AntiCheat] Session started: auto-1757524928772_1757524928772
+[2025-09-10T17:22:08.779Z] [LOG] [AntiCheat][AUTO] Dev auto session initialized
+[2025-09-10T17:22:08.779Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-10T17:22:08.780Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-10T17:22:08.781Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=idle, current=active)
+[2025-09-10T17:22:08.782Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757524928772_1757524928772","eventCount":1,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"riskLevel":"NONE","score":0,"role":"candidate","testStarted":true}
+[2025-09-10T17:22:09.381Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-10T17:22:10.288Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-10T17:22:13.784Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":6839,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-10T17:22:13.784Z"}
+[2025-09-10T17:22:13.785Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":6839,"preview":"1) Add a guard & diagnostics + termination-in-prog...","timestamp":"2025-09-10T17:22:13.785Z"}
+[2025-09-10T17:22:15.781Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-10T17:22:19.168Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T17:22:19.170Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= active sessionActive= true role= candidate terminationInProgress= false eventData= {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T17:22:19.171Z] [LOG] [AntiCheat] Terminating due to violation: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T17:22:19.172Z] [LOG] [AntiCheat] TERMINATING INTERVIEW SESSION due to violations: ["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"]
+[2025-09-10T17:22:19.173Z] [LOG] [AntiCheat] Monitoring STOPPED
+[2025-09-10T17:22:19.174Z] [LOG] [AntiCheat] INTERVIEW_TERMINATED: {"reason":"Critical security violations detected","violations":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","timestamp":"2025-09-10T17:22:19.174Z","terminationTriggered":true}
+[2025-09-10T17:22:20.121Z] [LOG] [AntiCheat] SUSPICIOUS_PROCESS: {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T17:22:20.122Z] [LOG] [AntiCheat][DECIDE] willTerminate= true isCandidate= true loggerTestStarted= true testState= completed sessionActive= true role= candidate terminationInProgress= true eventData= {"processes":["copilot.exe","whatsapp.exe","chrome.exe","msedge.exe","copilot","whatsapp","chrome","edge"],"criticalViolations":["copilot.exe","copilot"],"highSeverityViolations":[],"threatLevel":"critical","shouldTerminate":true}
+[2025-09-10T17:22:20.123Z] [WARN] [AntiCheat] Termination already in progress; ignoring duplicate trigger.
+[2025-09-10T17:22:20.682Z] [LOG] [AntiCheat] Redirecting to termination page: http://localhost:3001/interview-terminated
+[2025-09-10T17:23:05.540Z] [LOG] [AntiCheat] SESSION_END: {"sessionId":"auto-1757524928772_1757524928772","totalEvents":6,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[null],"clipboardEvents":1,"pasteAttempts":1},"timestamp":"2025-09-10T17:23:05.540Z"}
+[2025-09-10T17:23:05.543Z] [LOG] [AntiCheat] Session log saved: C:\Users\Hp\Desktop\codevail-app\logs\session_auto-1757524928772_1757524928772.json
+[2025-09-10T17:23:05.546Z] [LOG] [AntiCheat] Session ended: auto-1757524928772_1757524928772
+[2025-09-10T17:23:05.547Z] [LOG] [Diag] Process exiting with code 0

@@ -1,0 +1,31 @@
+[2025-09-13T19:50:10.725Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T19-50-10-724Z.log
+[2025-09-13T19:50:48.102Z] [ERROR] No dev server found on localhost:3000-3005
+[2025-09-13T19:50:48.105Z] [LOG] Loading fallback URL: http://localhost:3000
+[2025-09-13T19:50:50.834Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":0}
+[2025-09-13T19:50:50.840Z] [WARN] [App] Retry loading (1/5) in 1200ms...
+[2025-09-13T19:50:50.841Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+(Use `electron --trace-warnings ...` to show where the warning was created)
+[2025-09-13T19:50:50.891Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-13T19:50:50.893Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-13T19:50:54.416Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":1}
+[2025-09-13T19:50:54.423Z] [WARN] [App] Retry loading (2/5) in 1500ms...
+[2025-09-13T19:50:54.425Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-13T19:50:54.435Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-13T19:50:58.329Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":2}
+[2025-09-13T19:50:58.334Z] [WARN] [App] Retry loading (3/5) in 1800ms...
+[2025-09-13T19:50:58.337Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-13T19:50:58.385Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-13T19:51:02.542Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":3}
+[2025-09-13T19:51:02.546Z] [WARN] [App] Retry loading (4/5) in 2100ms...
+[2025-09-13T19:51:02.551Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-13T19:51:02.595Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-13T19:51:07.033Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":4}
+[2025-09-13T19:51:07.039Z] [WARN] [App] Retry loading (5/5) in 2400ms...
+[2025-09-13T19:51:07.042Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-13T19:51:07.089Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-13T19:51:11.828Z] [ERROR] [App] Failed to load URL: {"errorCode":-102,"errorDesc":"ERR_CONNECTION_REFUSED","validatedURL":"http://localhost:3000/","attempt":5}
+[2025-09-13T19:51:11.877Z] [WARN] [App] Initiating dev port relocation scan (3000-3010)...
+[2025-09-13T19:51:11.881Z] [ERROR] (node:2492) electron: Failed to load URL: http://localhost:3000/ with error: ERR_CONNECTION_REFUSED
+[2025-09-13T19:51:11.910Z] [ERROR] [App] Retry load failed: ERR_CONNECTION_REFUSED (-102) loading 'http://localhost:3000/'
+[2025-09-13T19:52:19.794Z] [WARN] [App] Relocation scan found no alternative active port
+[2025-09-13T19:56:27.755Z] [LOG] [Diag] Process exiting with code 0

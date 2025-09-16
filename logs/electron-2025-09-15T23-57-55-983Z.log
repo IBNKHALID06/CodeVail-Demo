@@ -1,0 +1,43 @@
+[2025-09-15T23:57:55.984Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-15T23-57-55-983Z.log
+[2025-09-15T23:57:58.792Z] [LOG] Loading dev URL: http://localhost:3000
+[2025-09-15T23:58:02.253Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-15T23:58:02.280Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-15T23:58:02.283Z] [LOG] [AntiCheat] SESSION_START: {"candidateName":"DevAutoCandidate","interviewId":"auto-1757980682283","sessionId":"auto-1757980682283_1757980682283","role":"candidate","testStarted":true,"timestamp":"2025-09-15T23:58:02.283Z"}
+[2025-09-15T23:58:02.299Z] [LOG] [AntiCheat] Session started: auto-1757980682283_1757980682283
+[2025-09-15T23:58:02.429Z] [LOG] [AntiCheat][AUTO] Dev auto session initialized
+[2025-09-15T23:58:02.456Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-15T23:58:02.459Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-15T23:58:12.459Z
+[2025-09-15T23:58:02.461Z] [LOG] [AntiCheat] Monitoring ACTIVATED (state=active)
+[2025-09-15T23:58:02.464Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=idle, current=active)
+[2025-09-15T23:58:02.466Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757980682283_1757980682283","eventCount":1,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":0,"pasteAttempts":0},"riskLevel":"NONE","score":0,"role":"candidate","testStarted":true}
+[2025-09-15T23:58:03.078Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:03.128Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:07.466Z] [LOG] [AntiCheat] CLIPBOARD_CHANGE: {"contentLength":934,"isLargePaste":true,"containsCode":true,"timestamp":"2025-09-15T23:58:07.466Z"}
+[2025-09-15T23:58:07.556Z] [LOG] [AntiCheat] LARGE_PASTE_DETECTED: {"contentLength":934,"preview":"Thought for 3sHere's the complete `App.tsx` file w...","timestamp":"2025-09-15T23:58:07.556Z"}
+[2025-09-15T23:58:09.476Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:16.478Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:23.492Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:30.132Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-15T23:58:30.165Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-15T23:58:40.165Z
+[2025-09-15T23:58:30.169Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:30.171Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=active, current=active)
+[2025-09-15T23:58:30.195Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757980682283_1757980682283","eventCount":3,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":1,"pasteAttempts":1},"riskLevel":"LOW","score":6,"role":"candidate","testStarted":true}
+[2025-09-15T23:58:30.493Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:30.838Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:33.498Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-15T23:58:33.556Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-15T23:58:43.555Z
+[2025-09-15T23:58:33.557Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:33.559Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=active, current=active)
+[2025-09-15T23:58:33.561Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757980682283_1757980682283","eventCount":3,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":1,"pasteAttempts":1},"riskLevel":"LOW","score":6,"role":"candidate","testStarted":true}
+[2025-09-15T23:58:34.172Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:36.492Z] [LOG] [AntiCheat][IPC] Test marked started in logger
+[2025-09-15T23:58:36.519Z] [LOG] [AntiCheat][IPC] Grace period active until 2025-09-15T23:58:46.518Z
+[2025-09-15T23:58:36.540Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:36.542Z] [LOG] [AntiCheat][IPC] startMonitoring invoked (previous state=active, current=active)
+[2025-09-15T23:58:36.544Z] [LOG] [AntiCheat][IPC] Logger status after markTestStarted: {"isActive":true,"sessionId":"auto-1757980682283_1757980682283","eventCount":3,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":1,"pasteAttempts":1},"riskLevel":"LOW","score":6,"role":"candidate","testStarted":true}
+[2025-09-15T23:58:37.152Z] [LOG] [AntiCheat] startMonitoring called but interval already exists
+[2025-09-15T23:58:37.506Z] [LOG] [AntiCheat] Running process check (active)...
+[2025-09-15T23:58:40.633Z] [LOG] [AntiCheat] SESSION_END: {"sessionId":"auto-1757980682283_1757980682283","totalEvents":3,"suspiciousActivity":{"windowSwitches":0,"suspiciousProcesses":[],"clipboardEvents":1,"pasteAttempts":1},"timestamp":"2025-09-15T23:58:40.633Z"}
+[2025-09-15T23:58:40.697Z] [LOG] [AntiCheat] Session log saved: C:\Users\Hp\Desktop\codevail-app\logs\session_auto-1757980682283_1757980682283.json
+[2025-09-15T23:58:40.717Z] [LOG] [AntiCheat] Session ended: auto-1757980682283_1757980682283
+[2025-09-15T23:58:40.732Z] [LOG] [Diag] Process exiting with code 0

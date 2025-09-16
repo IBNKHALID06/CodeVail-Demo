@@ -1,0 +1,5 @@
+[2025-09-10T17:16:54.339Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-10T17-16-54-329Z.log
+[2025-09-10T17:16:57.128Z] [LOG] Loading dev URL: http://localhost:3001
+[2025-09-10T17:17:00.469Z] [LOG] [AntiCheat] Setting up monitoring system...
+[2025-09-10T17:17:00.487Z] [LOG] [AntiCheat] Monitoring system initialized
+[2025-09-10T17:18:48.874Z] [LOG] [Diag] Process exiting with code 0
