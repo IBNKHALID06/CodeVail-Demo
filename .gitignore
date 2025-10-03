@@ -107,6 +107,16 @@ certs/
 builder-debug.yml
 builder-effective-config.yaml
 
+# Electron logs
+logs/
+*.log
+
+# VS Code history extension
+.history/
+
+# Temporary package files
+package-electron.json
+
 ###############################################
 # End of .gitignore
 ###############################################

@@ -1,6 +1,0 @@
-[2025-09-13T19:19:03.130Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T19-19-03-129Z.log
-[2025-09-13T19:19:52.585Z] [ERROR] No dev server found on localhost:3000-3005
-[2025-09-13T19:19:52.587Z] [LOG] Loading fallback URL: http://localhost:3000
-[2025-09-13T19:19:56.793Z] [LOG] [AntiCheat] Setting up monitoring system...
-[2025-09-13T19:19:56.799Z] [LOG] [AntiCheat] Monitoring system initialized
-[2025-09-13T19:21:44.486Z] [LOG] [Diag] Process exiting with code 0

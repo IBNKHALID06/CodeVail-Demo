@@ -1,6 +1,0 @@
-[2025-09-13T22:11:49.742Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T22-11-49-741Z.log
-[2025-09-13T22:11:49.863Z] [LOG] [Startup] Spawning Next.js dev server...
-[2025-09-13T22:11:49.875Z] [ERROR] [Startup] Failed to ensure dev server: spawn EINVAL
-[2025-09-13T22:12:27.590Z] [ERROR] No dev server found on localhost:3000-3005
-[2025-09-13T22:12:27.592Z] [LOG] Loading fallback URL: http://localhost:3000
-[2025-09-13T22:12:28.344Z] [LOG] [Diag] Process exiting with code 0

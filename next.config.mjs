@@ -6,6 +6,7 @@ const __dirname = dirname(__filename)
 
 const nextConfig = {
   reactStrictMode: false, // Slightly faster dev refresh (remove if you rely on double invoke checks)
+  output: 'export', // produce static assets in out/ for Electron
   modularizeImports: {
     'lucide-react': {
       transform: 'lucide-react/dist/esm/icons/{{member}}'

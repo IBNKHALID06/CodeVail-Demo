@@ -1,7 +1,12 @@
 "use client"
 
-import CallPage from "../../../src/pages/CallPage"
+import { Suspense } from "react"
+import CallPage from "../../../src/views/CallPage"
 
 export default function NewCallRoute() {
-  return <CallPage />
+  return (
+    <Suspense fallback={null}>
+      <CallPage />
+    </Suspense>
+  )
 }

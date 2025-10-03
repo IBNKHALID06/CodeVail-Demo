@@ -1,9 +1,0 @@
-[2025-09-13T23:55:24.766Z] [LOG] [Startup] Logging to C:\Users\Hp\Desktop\codevail-app\logs\electron-2025-09-13T23-55-24-765Z.log
-[2025-09-13T23:55:24.849Z] [LOG] [Startup] Skipping auto-spawn of Next.js dev server (set CODEVAIL_AUTO_SPAWN_NEXT=1 to enable)
-[2025-09-13T23:55:38.728Z] [LOG] Loading dev URL: http://localhost:3000
-[2025-09-13T23:55:40.605Z] [LOG] [AntiCheat] PROCESS_SCAN: {"banned":["chrome.exe","whatsapp.exe"],"criticalViolations":[],"highSeverityViolations":[],"threatLevel":"medium","shouldTerminate":false}
-[2025-09-13T23:55:40.617Z] [LOG] [AntiCheat][Startup] Detected violations at startup: ["chrome.exe","whatsapp.exe"]
-[2025-09-13T23:55:40.625Z] [LOG] [AntiCheat][Startup] Warning about medium violations
-[2025-09-13T23:55:44.950Z] [LOG] [AntiCheat] Setting up monitoring system...
-[2025-09-13T23:55:44.952Z] [LOG] [AntiCheat] Monitoring system initialized
-[2025-09-13T23:56:50.935Z] [LOG] [Diag] Process exiting with code 0
