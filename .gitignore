@@ -22,11 +22,11 @@ out/
 
 # Production / build folders
 build/
-dist/
 release/
 
-# Electron builder artifacts
-*.exe
+# Electron builder artifacts (allow dist/ folder and .exe for distribution)
+# dist/
+# *.exe
 *.dmg
 *.AppImage
 *.blockmap
