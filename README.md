@@ -78,7 +78,10 @@ npm run lint:css     # Stylelint (Tailwind aware)
 - Consolidate multiple results-related pages (`/results`, `/test-results`, legacy variants)
 - Add automated tests for anti-cheat flows
 - Integrate auto-update & code signing
-
+# Screenshots
+![Dashboard](dashboard.jpg)
+![code-test](code-test.jpg)
+![Cheating Warning](cheating-warning.jpg)
 ## License
 Proprietary – All rights reserved (update if you choose an OSS license later).
 
