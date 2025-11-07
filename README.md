@@ -80,8 +80,8 @@ npm run lint:css     # Stylelint (Tailwind aware)
 - Integrate auto-update & code signing
 # Screenshots
 ![Dashboard](dashboard.jpg)
-![code-test](code_test.jpg)
-![Cheating Warning](cheating_warning.jpg)
+![code-test](test.jpg)
+![Cheating Warning](warning.jpg)
 ## License
 Proprietary – All rights reserved (update if you choose an OSS license later).
 
